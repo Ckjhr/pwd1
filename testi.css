@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Open sans', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin-inline: auto;
+    
+}
+
+header {
+height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../pwd1/pict/jempol2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.navigation {
+    width: 100%;
+    padding: 20px 0px 10px 0px;
+}
+
+.navigation .box-navigation .box:nth-child(1) h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.navigation .box-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation .box-navigation .box:nth-child(2) ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation .box-navigation .box:nth-child(2) ul li{
+    list-style-type: none;
+    margin-left: 40px;
+
+}
+
+.navigation .box-navigation .box:nth-child(2) ul li a{
+    color: white;
+    font-weight: bold;
+}
+
+.navigation .box-navigation .box:nth-child(2) ul li a:hover {
+    color: greenyellow;
+    text-decoration: underline wavy goldenrod;
+}
+
+.navigation .box-navigation .box:nth-child(3) {
+    display: none;
+}
+
+.navigation .box-navigation .box:nth-child(2) ul li i {
+    display: none;
+}
+
+/* untuk tombol order */
+a.tbl-biru{
+    background: yellowgreen;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background: #F49D1A;
+    text-decoration: none;
+}
+
+
+/* testi css */
+
+header .awal {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+
+}
+
+header .awal p {
+    color: greenyellow;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+
+}
+
+header .awal h1 {
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 65px;
+    align-items: center;
+    letter-spacing: 5px;
+}
+
+/* card testi */
+
+
+/* kata kata di atas kartu testi */
+.container-fluid-5{
+	padding-top: 60px;
+	background-color: rgb(206, 163, 110);
+	height: 800px;
+	color: yellow;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.deskripsi {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+/* pengaturan tulisan dalam box card testi */
+.container-fluid-5-content{
+	color: black;
+	letter-spacing: normal;
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	
+}
+
+/* posisi card testi */
+.cards-wrapper {
+	display: flex;
+}
+
+.card {
+	margin: 50px;
+	width: calc(100%/2);
+	box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+
+/* gambar dalam card testi */
+.image-wrapper {
+	height: 22vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.image-wrapper img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+/* pengaturan untuk geser geser di card testi */
+.carousel {
+	position: relative;
+   
+ }           
+
+ .carousel-control-prev , .carousel-control-next {
+	position: absolute;
+	top: 100%;
+	transform: TranslateY(-50%);
+    color: greenyellow;
+ }
+
+ .carousel-control-prev {
+	right: auto;
+	left: 475px;
+ }
+ .carousel-control-next {
+	left: auto;
+	right: 475px;
+ }
